@@ -1,0 +1,28 @@
+footer {
+  margin: 100px 0;
+  padding: 50px 30px;
+  background: #F6F7F2;
+  text-align: center;
+}
+
+.footer-title {
+  color: #C1A575;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footer-grid {
+  margin: 50px 0;
+}
+
+.footer-rights {
+  color: #ADB099;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
