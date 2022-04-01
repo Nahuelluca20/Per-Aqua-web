@@ -1,0 +1,55 @@
+.slider-container {
+  text-align: center;
+  width: 100%;
+}
+.slider-item {
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.slider-1 {
+  background-image: url("/src/pages/Acknowledgments/images/1.jpeg");
+}
+
+.slider-2 {
+  background-image: url("/src/pages/Acknowledgments/images/2.jpeg");
+}
+
+.slider-3 {
+  background-image: url("/src/pages/Acknowledgments/images/3.jpeg");
+}
+
+.slider-4 {
+  background-image: url("/src/pages/Acknowledgments/images/4.jpeg");
+}
+
+.slider-5 {
+  background-image: url("/src/pages/Acknowledgments/images/5.jpeg");
+}
+
+.slider-title {
+  padding: 10px;
+  margin: 200px 20px 0 20px;
+  background-color: #c1a575;
+}
+
+@media screen and (min-width: 600px) {
+  .slider-title {
+    margin: 400px 20px 0 20px;
+  }
+  .slider-item {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slider-title {
+    margin: 450px 20px 0 20px;
+  }
+  .slider-item {
+    height: 600px;
+  }
+}
+
