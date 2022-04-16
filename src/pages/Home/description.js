@@ -7,8 +7,8 @@ function Description() {
   return (
     <section className="description">
       <div className="description-container">
-        <span className="subtitle">What we Do</span>
-        <h4 className="title">Profesional Spa & Beauty Service</h4>
+        <span className="subtitle">Que Hacemos</span>
+        <h4 className="title">Innovación en hierbas aromáticas</h4>
         <p className="description-text">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae

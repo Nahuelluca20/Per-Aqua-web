@@ -3,30 +3,15 @@
   width: 100%;
 }
 .slider-item {
-  background-color: red;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 300px;
 }
 
-.slider-1 {
-  background-image: url("/src/pages/Acknowledgments/images/1.jpeg");
+.slider-img {
+  width: 100%;
 }
 
-.slider-2 {
-  background-image: url("/src/pages/Acknowledgments/images/2.jpeg");
-}
-
-.slider-3 {
-  background-image: url("/src/pages/Acknowledgments/images/3.jpeg");
-}
-
-.slider-4 {
-  background-image: url("/src/pages/Acknowledgments/images/4.jpeg");
-}
-
-.slider-5 {
-  background-image: url("/src/pages/Acknowledgments/images/5.jpeg");
+.img-maui {
+  width: 300px;
 }
 
 .slider-title {

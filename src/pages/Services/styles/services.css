@@ -1,0 +1,76 @@
+.servicesPeraqua {
+  background-color: #c1a575;
+}
+
+.intro-services, .services-offer {
+  padding: 40px 30px;
+
+}
+
+.intro-services-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.intro-services-text {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.images-services, .intro-img {
+  width: 100%;
+}
+
+.divider {
+  margin-top: 100px;
+  text-align: center;
+  background-color: hsl(72, 24%, 96%, 0.7);
+  padding: 20px 0;
+}
+
+.divider-title {
+  font-weight: 700;
+  color: #c1a575;
+}
+
+.services-offer-grid-item {
+  margin-top: 100px;
+}
+
+.services-offer-grid-item-title {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 0;
+}
+
+.images-services {
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .images-services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .intro-img {
+    width: 700px;
+  }
+
+  .intro-services {
+    display: flex;
+    align-items: center;
+  }
+
+  .images-services {
+    width: 100%;
+  }
+}

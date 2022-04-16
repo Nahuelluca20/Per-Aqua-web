@@ -4,7 +4,7 @@
 
 .info-acknowledgments {
   background-color: #c1a575;
-  margin-top: 100px;
+  margin-top: 0px;
   padding: 50px 30px;
 }
 
@@ -16,7 +16,13 @@
 }
 
 .slider-div {
+  margin-top: 50px;
   padding: 0 20px;
+}
+
+.list-item {
+  margin: 15px 0;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 600px) {

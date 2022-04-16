@@ -11,9 +11,26 @@ function Acknowledgments() {
           En su larga trayectoria, PerAqua ha sido reconocida con diferentes
           galardones:
         </span>
-      </div>
-      <div className="slider-div">
-        <SimpleSlider />
+        <ul>
+          <li className="list-item">
+            Premio a la Innovación Tecnológica IDITS
+          </li>
+          <li className="list-item">Nuevas Prácticas Comerciales IDC</li>
+          <li className="list-item">Mendoza Innova</li>
+          <li className="list-item">
+            Premio Diseño y Gestión de Imagen Corporativa IDC
+          </li>
+          <li className="list-item">
+            Premio a la Innovación y Creatividad en Agroturismo en el Concurso
+            Nacional de Turismo Rural
+          </li>
+          <li className="list-item">Imagen Comercial ProArgentina </li>
+          <li className="list-item">
+            Menciones y Premio a la Excelencia Agropecuaria como Mejor Propuesta
+            Agroturística del país
+          </li>
+          <li className="list-item">Entre otros.</li>
+        </ul>
       </div>
       <div className="info-acknowledgments">
         <p className="text-acknowledgments">
@@ -24,13 +41,15 @@ function Acknowledgments() {
           Argentina.
           <br />
           <br />
-          Nos enorgullece contar que una empresa tan pequeña como es PerAqua,
-          por la presentación diferenciada, la originalidad y la innovación de
-          sus productos constituye elección en regalos institucionales y
-          empresariales, que saben llegar a manos incluso de cancilleres y
-          presidentes latinoamericanos.
+          Nos enorgullece contar que una pequeña empresa como es PerAqua por su
+          presentación diferenciada, su originalidad y por su innovación,
+          constituye elección en regalos institucionales y empresariales, que
+          saben llegar a manos de personalidades nacionales e internacionales.
         </p>
       </div>
+      <div className="slider-div">
+          <SimpleSlider />
+        </div>
     </section>
   );
 }

@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "pages/Home/home";
 import About from "pages/About/about";
 import Acknowledgments from "pages/Acknowledgments/acknowledgments";
+import Services from "pages/Services/services";
+import Wagon from "pages/Wagon/wagon";
 
 
 function Navbar() {
@@ -36,13 +38,13 @@ function Navbar() {
     },
     {
       name: "Servicios Spa",
-      route: `${process.env.PUBLIC_URL}/about`,
-      // component: <Services />
+      route: `${process.env.PUBLIC_URL}/servicios`,
+      component: <Services />
     },
     {
       name: "El vagón Cultural",
-      route: `${process.env.PUBLIC_URL}/contacto`,
-      // component: <Culture />
+      route: `${process.env.PUBLIC_URL}/vagon-cultural`,
+      component: <Wagon />
     },
   ];
   return (

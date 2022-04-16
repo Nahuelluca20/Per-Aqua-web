@@ -1,7 +1,12 @@
 import React from "react";
-import "./styles/about.css"
-import Img1 from "assets/nh1.jpeg"
-import Img2 from "assets/nh2.jpeg"
+import "./styles/about.css";
+import Img1 from "assets/nuestraHistoria/PAISAJE-PERAQUA1.jpg";
+import Img2 from "assets/nuestraHistoria/piscina.jpg";
+import Img3 from "assets/nuestraHistoria/Diapositiva17.jfif";
+import Img4 from "assets/nuestraHistoria/Imagen6.jpg";
+import Img5 from "assets/nuestraHistoria/foto-velas-hidro.jfif";
+import Img6 from "assets/nuestraHistoria/invernadero2.jpg";
+
 
 function About() {
   return (
@@ -9,43 +14,61 @@ function About() {
       <h1 className="title-about">Nuestra Historia</h1>
       <div>
         <div className="info-about-1">
-          <img src={Img1} alt="" className="img-about"/>
+          <img src={Img1} alt="" className="img-about" />
           <p className="about-text">
-            Somos una empresa familiar argentina dedicada a la innovación y al
-            placer, que ha recorrido un largo camino desde el 2007 hasta hoy.
-            Proponemos un circuito que se inicia con la producción de hierbas
-            aromáticas mediterráneas de cultivos propios, que luego son
-            transformadas en originales productos gourmet - relax y en servicios
-            de spa herbal únicos en Mendoza.
+            PerAqua es un innovador Centro de Bienestar dedicado al turismo del
+            ocio, a la relajación y a la sanación a través de las hierbas
+            aromáticas y sus propiedades medicinales.
           </p>
         </div>
 
         <div className="info-about-2">
           <p className="about-text-2">
-            Elegimos el paisaje pedemontano para la inmersión de los sentidos,
-            conjugando las hierbas mediterráneas con los beneficios de las
-            plantas nativas propias de la zona, Somos un establecimiento que
-            respeta y brega por el entorno que lo rodea.
-            <br />
-            <br />
-            PerAqua es un innovador Centro de Bienestar dedicado al turismo del
-            ocio, a la relajación y a la sanación a través de las hierbas y sus
-            propiedades aromático-medicinales.
+            Somos una empresa familiar dedicada a brindar servicios de Spa
+            Herbal y al desarrollo de Productos de Innovación. Hemos recorrido
+            un largo camino desde que abrimos nuestro espacio en el 2007,
+            eligiendo el paisaje pedemontano para la inmersión de los sentidos,
           </p>
-          <img src={Img2} alt="" className="img-about"/>
+          <img src={Img2} alt="" className="img-about" />
         </div>
 
         <div className="info-about-3">
-          <img src={Img1} alt="" className="img-about"/>
+          <img src={Img6} alt="" className="img-about" />
           <p className="about-text">
-            Somos un verdadero spa, un spa tradicional como no hay otro igual,
-            donde la <i>Salus Per Aqua</i>, es decir la <i>salud a través del agua</i> se
-            trabaja mediante vapores herbales, aguas aromatizadas y caricias con
-            aceites especiales. En este diseño único y exclusivo, las emociones
-            se ponen a flor de piel, los sentidos se agudizan y el cuerpo se
-            entrega a manos expertas que van llevando al paciente o visitante
-            por un circuito de limpieza profunda, física y emocional.
+            conjugando nuestros cultivos de hierbas mediterráneas con los
+            beneficios medicinales de las plantas nativas de la zona. Somos un
+            establecimiento que respeta y defiende activamente el entorno que lo
+            rodea.
           </p>
+        </div>
+
+        <div className="info-about-2">
+          <p className="about-text-2">
+            PerAqua es un lugar diferente, donde nuestras hierbas aromáticas son
+            luego transformadas en originales productos Gourmet & Relax, y
+            también en diferenciados servicios de Spa Herbal, un spa medicinal
+            como no hay otro igual
+          </p>
+          <img src={Img4} alt="" className="img-about" />
+        </div>
+
+        <div className="info-about-3">
+          <img src={Img3} alt="" className="img-about" />
+          <p className="about-text">
+            Somos un verdadero spa tradicional, donde la Salus Per Aqua, es
+            decir la salud a través del agua se trabaja mediante vapores y aguas
+            herbales, con caricias de aceites especiales en un plácido ambiente
+            natural. En este diseño sencillo, pero único y exclusivo,
+          </p>
+        </div>
+
+        <div className="info-about-2">
+          <p className="about-text-2">
+            las emociones se ponen a flor de piel, los sentidos se agudizan y el
+            cuerpo se entrega a manos expertas que van llevando por un circuito
+            de depuración, una limpieza profunda física y emociona
+          </p>
+          <img src={Img5} alt="" className="img-about" />
         </div>
       </div>
     </section>
