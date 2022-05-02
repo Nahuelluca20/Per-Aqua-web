@@ -8,6 +8,8 @@ import About from "pages/About/about";
 import Acknowledgments from "pages/Acknowledgments/acknowledgments";
 import Services from "pages/Services/services";
 import Wagon from "pages/Wagon/wagon";
+import Products from "pages/Products/products";
+
 
 
 function Navbar() {
@@ -45,6 +47,11 @@ function Navbar() {
       name: "El vagón Cultural",
       route: `${process.env.PUBLIC_URL}/vagon-cultural`,
       component: <Wagon />
+    },
+    {
+      name: "Productos Gourmet Relax",
+      route: `${process.env.PUBLIC_URL}/productos`,
+      component: <Products />
     },
   ];
   return (

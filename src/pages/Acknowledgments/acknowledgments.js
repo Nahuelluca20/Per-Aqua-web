@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/acknowledgments.css";
+import Img from "assets/reconocimientos/reconocimientos.jpeg";
 import SimpleSlider from "components/Slider/slider";
 
 function Acknowledgments() {
@@ -11,26 +12,29 @@ function Acknowledgments() {
           En su larga trayectoria, PerAqua ha sido reconocida con diferentes
           galardones:
         </span>
-        <ul>
-          <li className="list-item">
-            Premio a la Innovación Tecnológica IDITS
-          </li>
-          <li className="list-item">Nuevas Prácticas Comerciales IDC</li>
-          <li className="list-item">Mendoza Innova</li>
-          <li className="list-item">
-            Premio Diseño y Gestión de Imagen Corporativa IDC
-          </li>
-          <li className="list-item">
-            Premio a la Innovación y Creatividad en Agroturismo en el Concurso
-            Nacional de Turismo Rural
-          </li>
-          <li className="list-item">Imagen Comercial ProArgentina </li>
-          <li className="list-item">
-            Menciones y Premio a la Excelencia Agropecuaria como Mejor Propuesta
-            Agroturística del país
-          </li>
-          <li className="list-item">Entre otros.</li>
-        </ul>
+        <div className="list-container">
+          <ul>
+            <li className="list-item">
+              Premio a la Innovación Tecnológica IDITS
+            </li>
+            <li className="list-item">Nuevas Prácticas Comerciales IDC</li>
+            <li className="list-item">Mendoza Innova</li>
+            <li className="list-item">
+              Premio Diseño y Gestión de Imagen Corporativa IDC
+            </li>
+            <li className="list-item">
+              Premio a la Innovación y Creatividad en Agroturismo en el Concurso
+              Nacional de Turismo Rural
+            </li>
+            <li className="list-item">Imagen Comercial ProArgentina </li>
+            <li className="list-item">
+              Menciones y Premio a la Excelencia Agropecuaria como Mejor Propuesta
+              Agroturística del país
+            </li>
+            <li className="list-item">Entre otros.</li>
+          </ul>
+          <img src={Img} alt="premio" className="premio-img"/>
+        </div>
       </div>
       <div className="info-acknowledgments">
         <p className="text-acknowledgments">
@@ -48,8 +52,8 @@ function Acknowledgments() {
         </p>
       </div>
       <div className="slider-div">
-          <SimpleSlider />
-        </div>
+        <SimpleSlider />
+      </div>
     </section>
   );
 }

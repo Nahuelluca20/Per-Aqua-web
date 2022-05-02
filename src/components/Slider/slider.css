@@ -33,8 +33,11 @@
   .slider-title {
     margin: 450px 20px 0 20px;
   }
-  .slider-item {
-    height: 600px;
+
+  .slider-container {
+    text-align: center;
+    width: 500px;
   }
+
 }
 
